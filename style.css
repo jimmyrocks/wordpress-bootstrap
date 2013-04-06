@@ -242,6 +242,36 @@ video {
 	font-size: 3em;
 }
 
+/* loc8 customizations */
+h1 {
+    font-size: 40px !important;
+}
+
+h2 {
+    font-size: 30px !important;
+    line-height: 30px !important;
+}
+
+.page-header, .sidebar, #main article, .form-actions, #comment {
+    background:rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.lead {
+    font-size: 18px !important;
+    line-height: 22px !important;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: justify;
+    display: block;
+}
+
+ul > .disabled > a {
+    background-color: #f5f5f5 !important;
+}
+
 /* comments */
 
 
